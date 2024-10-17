@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>devKhurrana | Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen" id="welcome-screen">
+        <h1>Welcome to the Quiz!</h1>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+      <div class="screen hidden" id="quiz-screen">
+        <h2 id="question-text">Question text here...</h2>
+        <div class="options-container"></div>
+        <button id="next-btn" class="hidden">Next</button>
+      </div>
+      <div class="screen hidden" id="result-screen">
+        <h2>Quiz Complete!</h2>
+        <p>Your score: <span id="score"></span></p>
+        <button id="restart-btn">Restart</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
